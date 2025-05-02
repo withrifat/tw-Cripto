@@ -6,4 +6,26 @@
   .custome_btn {
     @apply bg-[#5677AC] text-xs md:text-base md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold hover:bg-[#42669e] transition hover:scale-105 hover:translate-y-1;
   }
+  /* card component */
+  .card_parent{
+    @apply flex flex-col md:flex-row md:p-4 my-3 p-2 items-center gap-6 border border-[#DDE2E5] mt-5 hover:scale-105 transition-all duration-300 cursor-pointer ;
+  }
+  .card_img{
+    @apply w-full h-44 object-cover md:h-fit md:size-[150px];
+  }
+  .card_tag {
+    @apply bg-black text-white text-xs uppercase px-1.5 py-0.5 rounded-sm  ;
+  }
+  .card_header{
+    @apply md:text-lg font-semibold text-[#333333] pb-1  ;
+  }
+  .card_para{
+    @apply md:text-base text-sm text-[#616161]  ;
+  }
+  .card_date{
+    @apply text-[#616161] ;
+  }
+  .card_BYname{
+    @apply text-[#5677AC] font-semibold cursor-pointer  ;
+  }
 }
