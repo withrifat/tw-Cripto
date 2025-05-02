@@ -1,0 +1,874 @@
+/* Hero section */
+@media screen and (min-width: 1400px) and (max-width: 1900px) {
+	.brand-wrapper {
+		gap: 100px;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+
+	/* trendy  */
+	.trendy-head img {
+		max-width: 100%;
+	}
+
+	.brand-wrapper {
+		gap: 43px;
+	}
+	/* resort  */
+	.resort-right::after {
+		width: 260px;
+		height: 278px;
+		top: -153px;
+		right: -259px;
+		top: -30%;
+		right: -39%;
+	}
+}
+/* Our Travel partner */
+@media (max-width: 768px) {
+	.travel img {
+	  max-width: 120px;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.travel {
+	  gap: 1rem;
+	}
+  
+	.travel img {
+	  max-width: 100px;
+	}
+  }
+/* FOR-LG-START */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	/* honymoon  */
+	.honymoon-area {
+		margin: 30px 0 80px;
+	}
+
+	.honymoon-right {
+		text-align: center;
+
+		& p {
+			font-size: 14px;
+			font-weight: 400;
+			margin: 12px 0 17px;
+		}
+	}
+
+	.honymoon-img {
+		text-align: center;
+
+		img {
+			max-width: 70%;
+		}
+	}
+
+	.honymoon-wrapper {
+		gap: 18px;
+		flex-direction: row;
+	}
+
+	.honymoon-left,
+	.honymoon-right {
+		width: 50%;
+	}
+
+	.trendy-wrapper {
+		gap: 51px;
+		text-align: center;
+	}
+
+	.promotion-wrapper {
+		margin-bottom: 50px;
+		background-size: 38%;
+	}
+
+	.promotion-inner {
+		gap: 24px;
+		max-width: 580px;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.promotion-inner {
+		& .promotion-item {
+			& span {
+				right: 31%;
+			}
+		}
+
+		/* resort  */
+		.resort-right::after {
+			right: -11%;
+		}
+
+		.resort-right {
+			margin-left: 41px;
+		}
+
+		.title {
+			font: 700 42px Volkhov;
+		}
+
+		.honymoon-img {
+			text-align: center;
+
+			img {
+				max-width: 100%;
+			}
+		}
+
+		.honymoon-wrapper {
+			gap: 18px;
+		}
+
+		.honymoon-right,
+		.honymoon-right {
+			width: 50%;
+		}
+
+		/* brand  */
+
+		/* hero  */
+		.hero-wrapper {
+			& .hero-title {
+				& h2 {
+					font-size: 40px;
+				}
+			}
+		}
+	}
+}
+
+/*FOR-TABLATE-START*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.client-area {
+		padding: 0px 0 46px;
+		margin-top: 46px;
+	}
+
+	.footer-wrapper {
+		padding-bottom: 22px;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.footer-area {
+		padding: 60px 0 32px;
+	}
+
+	.footer-copyright {
+		& p {
+			padding-top: 28px;
+			font-size: 14px;
+		}
+	}
+
+	.footer-item:nth-child(2) {
+		padding-left: 0;
+	}
+
+	.trendy-wrapper {
+		gap: 52px;
+	}
+
+	.trendy-area {
+		margin-bottom: 0;
+	}
+
+	.explore-wrapper {
+		margin-bottom: 68px;
+	}
+
+	.promotion-wrapper {
+		background: transparent;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.promotion-title {
+		& p {
+			max-width: 100%;
+		}
+	}
+
+	.promotion-inner {
+		margin-top: 30px;
+		gap: 28px;
+
+		& .promotion-item img {
+			width: 100%;
+		}
+
+	}
+
+	/* hodyday  */
+	.holiday-area {
+		padding: 78px 0;
+		margin: 106px 0 80px;
+	}
+
+	.holiday-title h3::after {
+		width: 172px;
+		background: url('image/holyday2.png') no-repeat;
+		position: absolute;
+		bottom: -44px;
+		right: -10px;
+		background-size: contain;
+	}
+
+	.holiday-title {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	/* resort  */
+	.resort-area {
+		overflow: inherit;
+		margin-top: 0;
+	}
+
+	.resort-trip {
+		max-width: inherit;
+		right: 0;
+		bottom: -8px;
+	}
+
+	.resort-cart {
+		& h4 {
+			font-size: 16px;
+		}
+
+		& p {
+			font-size: 14px;
+		}
+	}
+
+	.resort-content {
+		gap: 20px;
+
+		& p {
+			font-size: 14px;
+		}
+	}
+
+	.resort-right::after {
+		width: 229px;
+		height: 296px;
+		right: -4%;
+		top: -42%;
+	}
+
+	.resort-right {
+		margin-left: 41px;
+	}
+
+	/* honymoon  */
+	.honymoon-area {
+		margin: 30px 0 80px;
+	}
+
+	.honymoon-right {
+		text-align: center;
+
+		& p {
+			font-size: 14px;
+			font-weight: 400;
+			margin: 12px 0 17px;
+		}
+	}
+
+	.honymoon-img {
+		text-align: center;
+
+		img {
+			max-width: 70%;
+		}
+	}
+
+	.honymoon-wrapper {
+		gap: 18px;
+		flex-direction: column;
+	}
+
+	/* service  */
+	.service-info {
+		& h4 {
+			font-size: 15px;
+			margin:
+				15px 0 12px;
+		}
+
+		& p {
+			font-size: 14px;
+		}
+	}
+
+	.sub-title {
+		color: var(--orange);
+		font: 500 16px Poppins;
+	}
+
+	.title {
+		color: #181E4B;
+		font: 600 32px Volkhov;
+		margin-top: 12px;
+	}
+
+	.service-area {
+		padding: 38px;
+		text-align: center;
+	}
+
+	/* hero  */
+	.menu-btn span {
+		background: var(--orange);
+	}
+
+	.nav-right {
+		display: none;
+	}
+
+	.hero-wrapper {
+		& .hero-title {
+			& h2 {
+				font-size: 36px;
+			}
+		}
+	}
+
+	.heroBtn-wrap {
+		padding: 10px 33px;
+		max-width: 626px;
+
+		& .heroBtn-item {
+			& input[type="submit"] {
+				padding:
+					11px 36px;
+			}
+		}
+	}
+
+	.hero-wrapper {
+		min-height: 660px;
+	}
+
+	.header_inner {
+		padding: 0 8%;
+	}
+
+	/* menu  */
+	.sidebar-menu {
+		display: block;
+	}
+
+	.menu-btn {
+		display: block;
+	}
+
+	.nav_items {
+		display: none;
+	}
+
+}
+
+/*FOR-MOBIL-START*/
+@media screen and (max-width: 767px) {
+	.client-area {
+		padding: 0;
+		margin-top: 46px;
+	}
+
+	.review-arrow {
+
+		& .arrow-right,
+		& .arrow-left {
+			display: none;
+		}
+	}
+
+	.client-review {
+		border-radius: 0;
+	}
+
+	.footer-wrapper {
+		padding-bottom: 22px;
+		grid-template-columns: 1fr;
+		text-align: center;
+	}
+
+	.footer-area {
+		padding: 30px;
+	}
+
+	.footer-wrapper {
+		& .footer-item {
+			font-size: 15px;
+
+			& .footer-social {
+				margin: 18px 0 16px;
+			}
+
+			& .footer-email {
+
+				& input[type="submit"],
+				& input[type="text"] {
+					padding: 14px 15px;
+				}
+
+			}
+		}
+	}
+
+	.footer-item:first-child {
+		padding-right: 0;
+	}
+
+	.footer-copyright {
+		& p {
+			padding-top: 28px;
+			font-size: 14px;
+		}
+	}
+
+	.footer-item:nth-child(2) {
+		padding-left: 0;
+	}
+
+	.trendy-wrapper {
+		grid-template-columns: 1fr;
+		gap: 30px;
+		text-align: center;
+	}
+
+	.trendy-head img {
+		width: 100%;
+	}
+
+	.trendy-body {
+		& .trendy-place {
+			justify-content: space-around;
+
+			& h4 {
+				font-size: 22px;
+			}
+		}
+	}
+
+	.trendy-area {
+		margin-bottom: 0;
+	}
+
+	.explore-wrapper {
+		margin-bottom: 35px;
+	}
+
+	.promotion-wrapper {
+		background: transparent;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.promotion-title {
+		& p {
+			max-width: 100%;
+		}
+	}
+
+	.explore-wrapper {
+		grid-template-columns: 1fr;
+	}
+
+	.explore-wrapper {
+		& .explore-left {
+			padding: 45px;
+		}
+
+		& .explore-right {
+			padding: 45px;
+		}
+	}
+
+	.promotion-inner {
+		grid-template-columns: 1fr;
+		margin-top: 30px;
+		gap: 28px;
+		padding-bottom: 0;
+
+		& .promotion-item img {
+			width: 100%;
+		}
+
+	}
+
+	/* hodyday  */
+	.holiday-area {
+		padding:
+			46px 0;
+		margin:
+			50px 0;
+	}
+
+	.holiday-title h3::after {
+		width: 172px;
+		background: url('image/holyday2.png') no-repeat;
+		position: absolute;
+		bottom: -44px;
+		right: -10px;
+		background-size: contain;
+	}
+
+	.holiday-title {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.resort-area {
+		overflow:
+			inherit;
+		margin-top: -20px;
+	}
+
+	/* resort  */
+	.resort-content {
+		grid-template-columns: 1fr;
+		gap:
+			20px;
+		max-width: 100%;
+		width: 100%;
+		margin-top: 31px;
+	}
+
+	.resort-wrapper {
+		grid-template-columns: 1fr;
+		padding-top: 0;
+		gap: 58px;
+	}
+
+	.resort-left {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.resort-trip {
+		max-width: inherit;
+		right: 0;
+		bottom: -8px;
+		text-align: center;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.resort-cart {
+		& h4 {
+			font-size: 16px;
+		}
+
+		& p {
+			font-size: 14px;
+		}
+	}
+
+	.resort-content {
+		gap: 20px;
+		position: relative;
+		z-index: 222;
+
+		& p {
+			font-size: 14px;
+			margin: 10px;
+		}
+	}
+
+	.resort-right::after {
+		width: 172px;
+		height: 170px;
+		right: 50%;
+		top: -30%;
+		transform: translateX(50%);
+		z-index: -111;
+	}
+
+	.resort-right::before {
+		display: none;
+	}
+
+	.resort-right {
+		margin-left: 0;
+	}
+
+	.resort-cart {
+		max-width: inherit;
+		text-align: center;
+
+		>img {
+			width: 100%;
+		}
+
+	}
+
+	/* honymoon  */
+	.honymoon-area {
+		margin: 30px 0 80px;
+	}
+
+	.honymoon-right {
+		text-align: center;
+
+		& p {
+			font-size: 14px;
+			font-weight: 400;
+			margin: 12px 0 17px;
+		}
+	}
+
+	.honymoon-img {
+		text-align: center;
+
+		img {
+			max-width: 70%;
+		}
+	}
+
+	.honymoon-wrapper {
+		gap: 18px;
+		flex-direction: column;
+	}
+
+	/* service-title */
+	.service-info {
+		& h4 {
+			font-size: 15px;
+			margin:
+				15px 0 12px;
+		}
+
+		& p {
+			font-size: 14px;
+		}
+	}
+
+	.service-wrapper {
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+	}
+
+	.service-item {
+		padding: 10px;
+	}
+
+	.sub-title {
+		color: var(--orange);
+		font: 500 16px Poppins !important;
+	}
+
+	.title {
+		color: #181E4B;
+		font: 600 26px Volkhov;
+		margin-top: 8px;
+	}
+
+	.btn {
+		font: 500 14px Poppins;
+		padding:
+			10px 14px;
+	}
+
+	.service-area {
+		padding: 38px 0;
+		text-align: center;
+	}
+
+	/* brand  */
+	.brand-area {
+		padding: 38px 0;
+	}
+
+	/* hero  */
+	.menu-btn span {
+		background: var(--orange);
+	}
+
+	.nav-right {
+		display: none;
+	}
+
+	.hero-wrapper {
+		& .hero-title {
+			padding-top: 100px;
+
+			& h2 {
+				font-size: 28px;
+				margin-bottom: 16px;
+				text-align: center;
+			}
+		}
+	}
+
+	.hero-profile {
+		text-align: center;
+		padding-top: 18px;
+
+		span {
+			display: block;
+			padding: 10px 0;
+		}
+	}
+
+	.hero-wrapper .hero-title h2::before {
+		width: 56px;
+		height: 11px;
+		background:
+			url(image/Vector\ 1.png) no-repeat;
+		top: -18px;
+		background-size: cover;
+	}
+
+	.heroBtn-wrap {
+		padding:
+			10px 33px;
+		max-width: 476px;
+		grid-template-columns: 1fr 1fr;
+		text-align: center;
+		margin: 0 auto;
+		gap: 10px;
+
+		& .heroBtn-item {
+			text-align: center;
+
+			span {
+				font-size: 14px;
+			}
+
+			select {
+				font-size: 14px;
+			}
+
+			& input[type="submit"] {
+				padding:
+					11px 36px;
+				font-size: 14px;
+			}
+		}
+	}
+
+	.heroBtn-item:nth-child(1)::after,
+	.heroBtn-item:nth-child(2)::after {
+		display: none;
+	}
+
+	.hero-wrapper {
+		min-height: 580px;
+		padding-left: 0;
+	}
+
+	.header_inner {
+		padding: 0 8%;
+		margin-top: -40px;
+	}
+
+	.sidebar-menu {
+		display: block;
+	}
+
+	.menu-btn {
+		display: block;
+	}
+
+	.nav_items {
+		display: none;
+	}
+
+	.logo img {
+		width: 150px;
+	}
+
+	.client-review {
+		& .review-profile {
+			top: -16%;
+		}
+	}
+
+	.review-profile img {
+		width: 112px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.brand-wrapper {
+		grid-template-columns: 1fr;
+	}
+}
+/* --------------------footer part---------------- */
+@media (max-width: 1024px) {
+    .footer_widget {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+  
+    .footer_widget .fws {
+      width: 100%;
+      align-items: flex-start;
+    }
+  
+    .footer_widget .input_sus {
+      width: 100%;
+    }
+  
+    .footer_widget .input_sus input[type="email"] {
+      min-width: unset;
+      width: 100%;
+    }
+  
+    .footer_widget .input_sus button {
+      padding: 0.8rem 1.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    footer {
+      background-position: bottom center;
+      background-size: cover;
+      padding: 1.5rem;
+    }
+  
+    .copirite p {
+      font-size: 14px;
+      padding: 1rem;
+    }
+  
+    .footer_widget {
+      padding: 1rem 0.5rem;
+    }
+  
+    .footer_widget .input_sus {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .footer_widget .input_sus input[type="email"],
+    .footer_widget .input_sus button {
+      width: 100%;
+    }
+  
+    .footer_widget .input_sus button {
+      margin-top: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer_widget .fws img {
+      width: 7rem;
+    }
+  
+    .footer_widget {
+      gap: 1.5rem;
+    }
+  
+    .copirite p {
+      font-size: 13px;
+    }
+  }
+  

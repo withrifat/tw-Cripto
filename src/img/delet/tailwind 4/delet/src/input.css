@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer theme, base, components, utilities;
+
+@layer components {
+    
+    .cbutton{
+        @apply bg-red-500 hover:bg-red-700 text-white font-bold m-5 py-2 px-6 rounded-full animate-jump animate-fill-forwards;
+    }
+    .cP{
+        @apply bg-red-500 hover:bg-red-700 text-white font-bold m-5 py-2 px-6 rounded-full animate-jump animate-fill-forwards;
+    }
+}
+
