@@ -1,2 +1,9 @@
 @import "tailwindcss";
 
+
+
+@layer utilities {
+  .custome_btn {
+    @apply bg-[#5677AC] text-xs md:text-base md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold hover:bg-[#42669e] transition hover:scale-105 hover:translate-y-1;
+  }
+}
