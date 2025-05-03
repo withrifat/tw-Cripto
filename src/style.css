@@ -17,7 +17,7 @@
     @apply bg-black text-white text-xs uppercase px-1.5 py-0.5 rounded-sm  ;
   }
   .card_tagT {
-    @apply bg-[#5677AC26] text-black text-[14px] uppercase px-1.5 py-0.5 rounded-sm m-1 ;
+    @apply bg-[#5677AC26] text-black text-[14px] uppercase px-1.5 py-0.5 rounded-sm m-1 hover:text-white  hover:bg-black transition-all cursor-pointer  ;
   }
   .card_header{
     @apply md:text-lg font-semibold text-[#333333] pb-1  ;
