@@ -37,4 +37,8 @@
   .card_pT {
     @apply hover:scale-105 transition-all duration-300 cursor-pointer;
   }
+  /* 2ndpage nes */
+  .newsTxt {
+    @apply bg-[#e6ebf3] text-center rounded-full w-full md:py-4 py-2 font-medium md:text-lg hover:bg-slate-300 transition-all hover:scale-105 duration-300 cursor-pointer ;
+  }
 }
